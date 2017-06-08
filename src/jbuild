@@ -1,0 +1,5 @@
+(executable
+ ((name ldb_browser)
+  (public_name ldb_browser)
+  (modules (ldb_browser))
+  (libraries (base cmdliner leveldb))))
